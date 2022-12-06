@@ -2,7 +2,7 @@ name: Deploy pages
 on: push
 jobs:
   deploy:
-    runs-on: ubuntu-latest-slim
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v2
