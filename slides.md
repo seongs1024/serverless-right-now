@@ -868,6 +868,7 @@ image: ./figures/inst7.png
 ---
 layout: image-x
 image: ./figures/rightnow.png
+imageOrder: 1
 ---
 
 Lambda로부터 메시지가 잘 오는군요!
@@ -1031,6 +1032,7 @@ Lambda 함수 오버뷰에서 트리거 추가 버튼을 누릅니다.
 ---
 layout: image-x
 image: ./figures/cron.png
+imageOrder: 1
 ---
 
 # 😍
