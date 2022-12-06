@@ -11,7 +11,9 @@ jobs:
       - name: Install dependencies
         run: npm install
       - name: Install slidev
-        run: npm i -g @slidev/cli
+        run: npm i -g @slidev/cli 
+      - name: Install slidev theme purplin
+        run: npm i slidev-theme-purplin
       - name: Build
         run: slidev build --base serverless-right-now
       - name: Deploy pages
